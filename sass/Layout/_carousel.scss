@@ -1,0 +1,23 @@
+.teamCarousel {
+    background: url(../../img/yellow_top_wave_01.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    position: relative;
+    z-index: 5;
+}
+
+.carousel_left {
+    padding-left: 30px;
+    h3 {
+        @include styleText($fs-2,$fw-6,$color-violet);
+    }
+    h1 {
+        @include styleText($fs-3,$fw-7,$color-black);
+    }
+}
+
+.carousel__right {
+    padding-right: 50px;
+}

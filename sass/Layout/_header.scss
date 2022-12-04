@@ -1,0 +1,34 @@
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    
+}
+
+.header_contact {
+    display: flex;
+    .nav-link {
+        &:hover{
+            i {
+                @include styleTextHover($color-violet);
+            }
+        }   
+    }  
+}
+
+.header_content{
+    .navbar-nav {
+        .nav-item {
+            padding-right: $pd-1;
+            transition: all 0.2s;
+            &:hover {
+                a {
+                    @include styleTextHover($color-violet);
+                }
+            }
+            a {
+                @include styleText($fs-1, $fw-6, $color-black);
+            }
+        }
+    }
+}  

@@ -1,0 +1,6 @@
+.header_contact {
+    button {
+        @include styleButton($color-violet,2px,50px,$pd-2,$pd-3);
+        @include styleText(0.9em,$fw-4,$color-white);
+    }
+}
