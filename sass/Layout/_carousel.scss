@@ -9,7 +9,6 @@
 }
 
 .carousel_left {
-    padding-left: 30px;
     h3 {
         @include styleText($fs-2,$fw-6,$color-violet);
     }
@@ -19,5 +18,7 @@
 }
 
 .carousel__right {
-    padding-right: 50px;
+    img {
+        width: 100%;
+    }
 }

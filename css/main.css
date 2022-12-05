@@ -15,10 +15,22 @@ html, body {
   background: #b61984;
   border: 2px;
   border-radius: 50px;
-  padding: 1.1em 1.5em;
+  padding: 10px 1.5em;
   font-size: 0.9em;
   font-weight: 400;
   color: #ffffff;
+}
+
+.find_right button {
+  background: #b61984;
+  border: 2px;
+  border-radius: 50px;
+  padding: 15px 50px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 65px;
 }
 
 header {
@@ -35,7 +47,7 @@ header {
 }
 
 .header_content .navbar-nav .nav-item {
-  padding-right: 50px;
+  padding-right: 35px;
   transition: all 0.2s;
 }
 .header_content .navbar-nav .nav-item:hover a {
@@ -57,9 +69,6 @@ header {
   z-index: 5;
 }
 
-.carousel_left {
-  padding-left: 30px;
-}
 .carousel_left h3 {
   font-size: 1.1rem;
   font-weight: 600;
@@ -71,8 +80,8 @@ header {
   color: #181818;
 }
 
-.carousel__right {
-  padding-right: 50px;
+.carousel__right img {
+  width: 100%;
 }
 
 .teamCard {
@@ -95,11 +104,16 @@ header {
   z-index: 10;
   transition: all 0.2s;
   overflow: hidden;
+  width: 100%;
+}
+.card_content .card span {
+  overflow: hidden;
 }
 .card_content .card:hover {
   box-shadow: rgba(128, 128, 128, 0.831) 1px 15px 20px;
 }
 .card_content .card img {
+  width: 100%;
   transition: transform 650ms ease-in-out;
 }
 .card_content .card img:hover {
@@ -124,4 +138,109 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.find_right {
+  padding-right: 30px;
+}
+.find_right .team_form {
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 5px 20px;
+  border-radius: 10px;
+}
+.find_right .team_form .form_all {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.find_right h1 {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #181818;
+}
+.find_right .nameInp {
+  padding-right: 15px;
+  position: relative;
+}
+.find_right .nameInp i {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  color: #b61984;
+}
+.find_right .mailInp {
+  position: relative;
+}
+.find_right .mailInp i {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  color: #b61984;
+}
+.find_right .selInp {
+  position: relative;
+}
+.find_right .selInp i {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 0.8em;
+  color: #b61984;
+}
+.find_right .textAre {
+  position: relative;
+}
+.find_right .textAre i {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #b61984;
+}
+.find_right input {
+  border-radius: 50px;
+  padding: 1em 0 1em 2.5em;
+  font-size: 0.8em;
+  height: 3.7em;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.find_right input:focus {
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px;
+}
+.find_right input:focus-visible {
+  outline: none;
+}
+.find_right select {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  color: #181818;
+  font-size: 0.8em;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.find_right select:focus {
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px;
+  border: none;
+}
+.find_right textarea {
+  padding: 1em 0.5em 1em 3.5em;
+  height: 90px;
+  line-height: 1.5;
+  font-size: 0.8em;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+.find_right textarea:focus {
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px;
+}
+.find_right textarea:focus-visible {
+  outline: none;
+}
+
+.find_left img {
+  width: 100%;
+}
+
+.teamFind img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
