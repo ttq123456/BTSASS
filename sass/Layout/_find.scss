@@ -1,17 +1,18 @@
 .find_right {
-    padding-right: 30px;
+    padding: 0 40px;
     .team_form {
-        //background: red;
+        background-color: $color-white;
         box-shadow: rgba(0, 0, 0, 0.171) 0px 5px 20px;
         border-radius: 10px;
+        
         .form_all {
             padding-left: 30px;
             padding-right: 30px;
         }
     }
     h1 {
-        padding-top: 20px;
-        margin-bottom: 40px;
+        padding-top: 30px;
+        margin-bottom: 65px;
         @include styleText(2.5rem,$fw-7,$color-black);
     }
     .nameInp {
@@ -62,6 +63,7 @@
            font-size: 0.8em;
            height: 3.7em;
            border: 1px solid rgba(0,0,0,.07);
+           width: 100%;
            &:focus{
              box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px;
         
@@ -103,17 +105,17 @@
 }
 
 .find_left {
-    //position: absolute;
-
+    padding-left: 80px;
     img {
         width: 100%;
     }
 }
 
 .teamFind {
-    //position: relative;
-    img {
-        width: 100%;
-        //margin-top: -250px;
-    }
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background: url(../../img/accent_bottom_wave_01.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

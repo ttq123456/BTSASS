@@ -8,6 +8,10 @@ header {
 .header_contact {
     display: flex;
     .nav-link {
+        i {
+            color: $color-black;
+            font-size: 0.8em;
+        }
         &:hover{
             i {
                 @include styleTextHover($color-violet);

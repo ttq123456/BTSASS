@@ -14,3 +14,9 @@
     border-radius: $radius ;
     padding: $py $px;
 }
+
+@mixin styleButtonHover($bg-hover,$border-hover,$color-hover) {
+    background: $bg-hover;
+    border: $border-hover;
+    color: $color-hover;
+}

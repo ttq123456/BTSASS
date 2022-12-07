@@ -11,26 +11,44 @@ html, body {
   color: #181818;
 }
 
-.header_contact button {
-  background: #b61984;
-  border: 2px;
+.btnTeam {
+  padding: 0.8em 1.5em;
+  box-shadow: 0 0 0 3em #b61984 inset;
   border-radius: 50px;
-  padding: 10px 1.5em;
   font-size: 0.9em;
   font-weight: 400;
   color: #ffffff;
+  transition: all 0.2s;
+}
+.btnTeam:hover {
+  box-shadow: 0 0 0 0.1em #b61984 inset;
+  color: #b61984;
 }
 
-.find_right button {
-  background: #b61984;
-  border: 2px;
-  border-radius: 50px;
-  padding: 15px 50px;
+.find_right span {
   font-size: 0.8em;
   font-weight: 600;
   color: #ffffff;
-  margin-top: 30px;
-  margin-bottom: 65px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: inline-block;
+  padding: 1em 5em;
+  cursor: pointer;
+}
+
+.btnWhite {
+  padding: 1.3em 1.5em;
+  text-align: center;
+  box-shadow: 0 0 0 3em #ffffff inset;
+  border-radius: 50px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #181818;
+  transition: all 0.2s;
+}
+.btnWhite:hover {
+  box-shadow: 0 0 0 0.1em #ffffff inset;
+  color: #ffffff;
 }
 
 header {
@@ -41,6 +59,10 @@ header {
 
 .header_contact {
   display: flex;
+}
+.header_contact .nav-link i {
+  color: #181818;
+  font-size: 0.8em;
 }
 .header_contact .nav-link:hover i {
   color: #b61984;
@@ -141,9 +163,10 @@ header {
 }
 
 .find_right {
-  padding-right: 30px;
+  padding: 0 40px;
 }
 .find_right .team_form {
+  background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.171) 0px 5px 20px;
   border-radius: 10px;
 }
@@ -152,8 +175,8 @@ header {
   padding-right: 30px;
 }
 .find_right h1 {
-  padding-top: 20px;
-  margin-bottom: 40px;
+  padding-top: 30px;
+  margin-bottom: 65px;
   font-size: 2.5rem;
   font-weight: 700;
   color: #181818;
@@ -202,6 +225,7 @@ header {
   font-size: 0.8em;
   height: 3.7em;
   border: 1px solid rgba(0, 0, 0, 0.07);
+  width: 100%;
 }
 .find_right input:focus {
   box-shadow: rgba(0, 0, 0, 0.171) 0px 0px 3px;
@@ -237,10 +261,68 @@ header {
   outline: none;
 }
 
+.find_left {
+  padding-left: 80px;
+}
 .find_left img {
   width: 100%;
 }
 
-.teamFind img {
+.teamFind {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background: url(../../img/accent_bottom_wave_01.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer_content {
+  background: url(../../img/footer_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+.footer_content h2 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer_content .nav-link {
+  padding: 0.8rem 1rem;
+}
+.footer_content a {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.footer_content a:hover {
+  opacity: 0.8;
+  color: #ffffff;
+}
+.footer_content .newsetter input {
+  padding: 1em 1.5em;
   width: 100%;
+  border-radius: 50px;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer_content .newsetter input #placehoder {
+  color: #ffffff;
+}
+.footer_content .newsetter input:focus-visible {
+  outline: none;
+}
+.footer_content .newsetter input:focus {
+  border: 1px solid #ffffff;
 }/*# sourceMappingURL=main.css.map */

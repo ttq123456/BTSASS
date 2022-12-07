@@ -1,0 +1,48 @@
+.footer_content {
+    background: url(../../img/footer_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    color: $color-white;
+    font-size: 0.9em;
+    h2 {
+        @include styleText($fs-5,$fw-7,$color-white);
+        margin-bottom: 20px;
+    }
+    .nav-link {
+        padding: 0.8rem 1rem;
+    }
+    a {
+        @include styleText(0.9em,$fw-6,$color-white);
+        transition: all 0.2s;
+        &:hover{
+            opacity: 0.8;
+            color: $color-white;
+        }
+    }
+    .newsetter {
+        input {
+            padding: 1em 1.5em;
+            width: 100%;
+            border-radius: 50px;
+            text-align: center;
+            background: transparent;
+            color: $color-white;
+            border: none;
+            margin-bottom: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            #placehoder{
+                color: $color-white;
+            }
+            &:focus-visible{
+                outline: none;
+            }
+            &:focus {
+                border: 1px solid $color-white;
+            }
+        }
+    }
+    
+}

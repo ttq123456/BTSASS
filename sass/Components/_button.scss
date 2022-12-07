@@ -1,15 +1,35 @@
-.header_contact {
-    button {
-        @include styleButton($color-violet,2px,50px,10px,$pd-3);
+    .btnTeam {
+        padding: 0.8em 1.5em;
+        box-shadow: 0 0 0 3em #b61984 inset;
+        border-radius: 50px;
         @include styleText(0.9em,$fw-4,$color-white);
+        transition: all 0.2s;
+        &:hover{
+            box-shadow: 0 0 0 0.1em #b61984 inset;
+            color: $color-violet;
+        }
+    }
+
+.find_right {
+    span {
+        @include styleText(0.8em,$fw-6,$color-white);
+        margin-top: 40px;
+        margin-bottom: 80px;
+        display: inline-block;
+        padding: 1em 5em;
+        cursor: pointer;
     }
 }
 
-.find_right {
-    button {
-        @include styleButton($color-violet,2px,50px,15px,50px);
-        @include styleText(0.8em,$fw-6,$color-white);
-        margin-top: 30px;
-        margin-bottom: 65px;
+.btnWhite {
+    padding: 1.3em 1.5em;
+    text-align: center;
+    box-shadow: 0 0 0 3em $color-white inset;
+    border-radius: 50px;
+    @include styleText(0.9em,$fw-6,$color-black);
+    transition: all 0.2s;
+    &:hover{
+        box-shadow: 0 0 0 0.1em $color-white inset;
+        color: $color-white;
     }
 }
