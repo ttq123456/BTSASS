@@ -11,6 +11,11 @@ html, body {
   color: #181818;
 }
 
+.contain_team {
+  width: 95%;
+  margin: auto;
+}
+
 .btnTeam {
   padding: 0.8em 1.5em;
   box-shadow: 0 0 0 3em #b61984 inset;
@@ -82,7 +87,7 @@ header {
 }
 
 .teamCarousel {
-  background: url(../../img/yellow_top_wave_01.png);
+  background: url(../img/yellow_top_wave_01.png);
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
@@ -271,14 +276,14 @@ header {
 .teamFind {
   padding-top: 80px;
   padding-bottom: 30px;
-  background: url(../../img/accent_bottom_wave_01.png);
+  background: url(../img/accent_bottom_wave_01.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .footer_content {
-  background: url(../../img/footer_background.jpg);
+  background: url(../img/footer_background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -292,6 +297,14 @@ header {
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 20px;
+}
+.footer_content .icon i {
+  padding-right: 10px;
+  font-size: 1em;
+  transition: all 0.2s;
+}
+.footer_content .icon i:hover {
+  color: #181818;
 }
 .footer_content .nav-link {
   padding: 0.8rem 1rem;

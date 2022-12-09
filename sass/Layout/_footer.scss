@@ -1,5 +1,5 @@
 .footer_content {
-    background: url(../../img/footer_background.jpg);
+    background: url(../img/footer_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,6 +11,17 @@
         @include styleText($fs-5,$fw-7,$color-white);
         margin-bottom: 20px;
     }
+    .icon{
+        i {
+            padding-right: 10px ;
+            font-size: 1em;
+            transition: all 0.2s;
+            &:hover{
+                color: $color-black;
+            }
+        }
+    }
+ 
     .nav-link {
         padding: 0.8rem 1rem;
     }
